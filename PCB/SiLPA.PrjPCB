@@ -89,23 +89,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EAYYCROM
 
 [Document4]
-DocumentPath=SiLPA.stackup
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document5]
 DocumentPath=SiLPA_LVDS_IFC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MJNKMGWL
 
-[Document6]
+[Document5]
 DocumentPath=SiLPA_RF_channel_preamp.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HWHAIACB
 
-[Document7]
+[Document6]
 DocumentPath=SiLPA_PWR_Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UCPJRFKO
 
-[Document8]
+[Document7]
 DocumentPath=SiLPA_RF_channel.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IAIFSYEK
 
-[Document9]
+[Document8]
 DocumentPath=SiLPA_RF_detector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JLNXECXT
 
-[Document10]
+[Document9]
 DocumentPath=SiLPA_MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -228,10 +211,6 @@ Variation12=Designator=R8B|UniqueId=\YOAVTQIV\VARHIUGF|Kind=1|AlternatePart=
 Variation13=Designator=C2B|UniqueId=\YOAVTQIV\JQUHBMED|Kind=1|AlternatePart= 
 Variation14=Designator=C2A|UniqueId=\SBPNPDYS\JQUHBMED|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for SiLPA\Net Status - SiLPA.html
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
