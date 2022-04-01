@@ -229,6 +229,79 @@ Variation13=Designator=C2B|UniqueId=\YOAVTQIV\JQUHBMED|Kind=1|AlternatePart=
 Variation14=Designator=C2A|UniqueId=\SBPNPDYS\JQUHBMED|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[ProjectVariant2]
+UniqueID=8405F05D-EE2E-46E6-B2EC-62A610C5B8A1
+Description=STM32L100
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=IC21|UniqueId=\MPRBNUPJ\LBHADIHJ|Kind=2|AlternatePart=STM32L100RBT6|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive - Politechnika Warszawska\inż\STM32L100\Components - 01.04.22 - 16.29.IntLib|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=CMP-0236-00074-2|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Components - 01.04.22 - 16.29.IntLib|AltLibLink_UseDBTableName=False|AltLibLink_DatabaseTableName= |AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=STM-LQFP64_L|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue=STM32L100RBT6
+ParamDesignator1=IC21
+ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator2=IC21
+ParamVariation3=ParameterName=ComponentLink1Description|VariantValue=Manufacturer URL
+ParamDesignator3=IC21
+ParamVariation4=ParameterName=ComponentLink1URL|VariantValue=http://www.st.com/web/en/home.html
+ParamDesignator4=IC21
+ParamVariation5=ParameterName=ComponentLink2Description|VariantValue=Datasheet
+ParamDesignator5=IC21
+ParamVariation6=ParameterName=ComponentLink2URL|VariantValue=http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00078075.pdf
+ParamDesignator6=IC21
+ParamVariation7=ParameterName=ComponentLink3Description|VariantValue=Package Specification
+ParamDesignator7=IC21
+ParamVariation8=ParameterName=ComponentLink3URL|VariantValue=http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf
+ParamDesignator8=IC21
+ParamVariation9=ParameterName=Core|VariantValue=ARM Cortex-M3
+ParamDesignator9=IC21
+ParamVariation10=ParameterName=D/A Converter|VariantValue=2x12-bit (2 Channel)
+ParamDesignator10=IC21
+ParamVariation11=ParameterName=Data E2PROM nom (B)|VariantValue=2048
+ParamDesignator11=IC21
+ParamVariation12=ParameterName=DatasheetVersion|VariantValue=Rev. 1
+ParamDesignator12=IC21
+ParamVariation13=ParameterName=Description|VariantValue=ARM Cortex-M3 32-bit MCU, 128 KB Flash, 10 KB Internal RAM, 51 I/Os, 64-pin LQFP, -40 to 85 degC, Tray
+ParamDesignator13=IC21
+ParamVariation14=ParameterName=Display controller|VariantValue=LCD 4x32/8x28
+ParamDesignator14=IC21
+ParamVariation15=ParameterName=FLASH Size (Prog) (kB)|VariantValue=128
+ParamDesignator15=IC21
+ParamVariation16=ParameterName=Footprint|VariantValue=STM-LQFP64_L
+ParamDesignator16=IC21
+ParamVariation17=ParameterName=I/Os (High Current)|VariantValue=51
+ParamDesignator17=IC21
+ParamVariation18=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator18=IC21
+ParamVariation19=ParameterName=Internal RAM Size (kB)|VariantValue=10
+ParamDesignator19=IC21
+ParamVariation20=ParameterName=Library Reference|VariantValue=CMP-0236-00074-2
+ParamDesignator20=IC21
+ParamVariation21=ParameterName=Mounting Technology|VariantValue=Surface Mount
+ParamDesignator21=IC21
+ParamVariation22=ParameterName=Operating Frequency(F) (Processor speed) (MHz)|VariantValue=32
+ParamDesignator22=IC21
+ParamVariation23=ParameterName=PackageDescription|VariantValue=64-Pin Low Profile Quad Flat Package, 10 x 10 mm Body, 0.5 mm Pitch
+ParamDesignator23=IC21
+ParamVariation24=ParameterName=PackageReference|VariantValue=LQFP64
+ParamDesignator24=IC21
+ParamVariation25=ParameterName=PackageVersion|VariantValue=Rev. 4, 06/2013
+ParamDesignator25=IC21
+ParamVariation26=ParameterName=Packing|VariantValue=Tray
+ParamDesignator26=IC21
+ParamVariation27=ParameterName=PartNumber|VariantValue=STM32L100RBT6
+ParamDesignator27=IC21
+ParamVariation28=ParameterName=PCB3D|VariantValue= 
+ParamDesignator28=IC21
+ParamVariation29=ParameterName=Pin Info|VariantValue= 
+ParamDesignator29=IC21
+ParamVariation30=ParameterName=Signal Integrity|VariantValue= 
+ParamDesignator30=IC21
+ParamVariation31=ParameterName=Simulation|VariantValue= 
+ParamDesignator31=IC21
+ParamVariation32=ParameterName=Supply Voltage(Vcc) min (V)|VariantValue=1.8
+ParamDesignator32=IC21
+ParamVariationCount=32
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for SiLPA\SiLPA-RoundHoles.TXT
 DItemRevisionGUID=
@@ -503,7 +576,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP Deskjet 1510 series
+TargetPrinter=HP LaserJet MFP M129-M134 PCLm-S (sieć)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -603,7 +676,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=HP Deskjet 1510 series
+TargetPrinter=HP LaserJet MFP M129-M134 PCLm-S (sieć)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
