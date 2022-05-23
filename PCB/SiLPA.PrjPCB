@@ -38,7 +38,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=SiLPA.OutJob
+DocumentPath=..\..\HVSUP_ISOL-master\HVPSU_ISOL.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -55,6 +55,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document2]
+DocumentPath=SiLPA.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document3]
 DocumentPath=SiLPA.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VDEBEANN
 
-[Document3]
+[Document4]
 DocumentPath=SiLPA.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EAYYCROM
 
-[Document4]
+[Document5]
 DocumentPath=SiLPA_LVDS_IFC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MJNKMGWL
 
-[Document5]
+[Document6]
 DocumentPath=SiLPA_RF_channel_preamp.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HWHAIACB
 
-[Document6]
+[Document7]
 DocumentPath=SiLPA_PWR_Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UCPJRFKO
 
-[Document7]
+[Document8]
 DocumentPath=SiLPA_RF_channel.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IAIFSYEK
 
-[Document8]
+[Document9]
 DocumentPath=SiLPA_RF_detector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JLNXECXT
 
-[Document9]
+[Document10]
 DocumentPath=SiLPA_MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YEAVXTOD
 
-[Document10]
+[Document11]
 DocumentPath=SiLPA.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -209,7 +226,7 @@ DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=5E9487E4-CB2E-46C2-8B00-0CF59F28739D
-Description=std
+Description=STM32F078
 AllowFabrication=0
 ParameterCount=0
 VariationCount=14
@@ -288,7 +305,7 @@ ParamVariation25=ParameterName=PackageVersion|VariantValue=Rev. 4, 06/2013
 ParamDesignator25=IC21
 ParamVariation26=ParameterName=Packing|VariantValue=Tray
 ParamDesignator26=IC21
-ParamVariation27=ParameterName=PartNumber|VariantValue=STM32L100RBT6
+ParamVariation27=ParameterName=PartNumber|VariantValue=STM32L100
 ParamDesignator27=IC21
 ParamVariation28=ParameterName=PCB3D|VariantValue= 
 ParamDesignator28=IC21
@@ -300,7 +317,13 @@ ParamVariation31=ParameterName=Simulation|VariantValue=
 ParamDesignator31=IC21
 ParamVariation32=ParameterName=Supply Voltage(Vcc) min (V)|VariantValue=1.8
 ParamDesignator32=IC21
-ParamVariationCount=32
+ParamVariation33=ParameterName=Manufacturer|VariantValue=<no parameter>
+ParamDesignator33=IC21
+ParamVariation34=ParameterName=Package Description|VariantValue=<no parameter>
+ParamDesignator34=IC21
+ParamVariation35=ParameterName=Package Reference|VariantValue=<no parameter>
+ParamDesignator35=IC21
+ParamVariationCount=35
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for SiLPA\SiLPA-RoundHoles.TXT
