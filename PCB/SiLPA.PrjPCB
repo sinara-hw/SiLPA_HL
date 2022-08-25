@@ -208,7 +208,24 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document11]
-DocumentPath=..\..\EEM_FMC_Carrier\PCB\EEM_FMC_Carrier.IntLib
+DocumentPath=SiLPA_CPCIS_Con_P1_P6.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RMUUFYQV
+
+[Document12]
+DocumentPath=SiLPA_CPCIS_Con_P1_P6.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -224,8 +241,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
-DocumentPath=SiLPA_CPCIS_Con_P1_P6.SchDoc
+[Document13]
+DocumentPath=EEM_FMC_Carrier.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -239,10 +256,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=RMUUFYQV
+DocumentUniqueId=
 
-[Document13]
-DocumentPath=SiLPA_CPCIS_Con_P1_P6.Harness
+[Document14]
+DocumentPath=max1329betl&plus_.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
