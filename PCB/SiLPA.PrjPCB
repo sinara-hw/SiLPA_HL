@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=default
 
 [Preferences]
 PrefsVaultGUID=
@@ -303,8 +304,56 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document16]
+DocumentPath=..\Panel\Panel_SiLPA.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OAIPVNHO
+
+[ProjectVariant1]
+UniqueID=9432FE1C-4CFA-4FFC-A183-87197D2B2D90
+Description=default
+AllowFabrication=0
+ParameterCount=0
+VariationCount=7
+Variation1=Designator=IC29|UniqueId=\CXEWHUMV\UKBWKDBE|Kind=1|AlternatePart= 
+Variation2=Designator=IC28|UniqueId=\CXEWHUMV\OMMHUIYF|Kind=1|AlternatePart= 
+Variation3=Designator=R97|UniqueId=\CXEWHUMV\YNVADAJT|Kind=1|AlternatePart= 
+Variation4=Designator=R96|UniqueId=\CXEWHUMV\HLFPCCIO|Kind=1|AlternatePart= 
+Variation5=Designator=R25A|UniqueId=\JPVNEDTF\KWPVSIYG|Kind=1|AlternatePart= 
+Variation6=Designator=R25B|UniqueId=\BVIHQXPU\KWPVSIYG|Kind=1|AlternatePart= 
+Variation7=Designator=IC19|UniqueId=\MPRBNUPJ\HHDMFYOW|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for SiLPA\Design Rule Check - SiLPA.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for SiLPA\Panel\Panel_SiLPA.brd
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for SiLPA\Panel\Panel_SiLPA.DXF
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for SiLPA\Panel\Panel_SiLPA.step
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=C:\Users\gkasp\AppData\Local\Temp\QjzEDCE.xls
 DItemRevisionGUID=
 
 [Configuration1]
@@ -425,22 +474,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -551,7 +590,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother DCP-L2540DN series Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
