@@ -23,27 +23,15 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
-AutoSheetNumbering=0
-AutoCrossReferences=0
-NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-IsProjectConflictPreventionWarningsEnabled=1
-IsVirtualBomDocumentRemoved=0
-OutputPath=Project Outputs for SiLPA
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
-CrossRefLocationStyle=1
-CrossRefPorts=3
-CrossRefCrossSheets=1
-CrossRefSheetEntries=0
-CrossRefFollowFromMainSettings=1
-CurrentVariant=default
 
 [Preferences]
 PrefsVaultGUID=
@@ -304,8 +292,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OAIPVNHO
 
-<<<<<<< Updated upstream
-=======
 [Document16]
 DocumentPath=SiLPA.SchLib
 AnnotationEnabled=1
@@ -340,7 +326,6 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PPAKMYEQ
 
->>>>>>> Stashed changes
 [ProjectVariant1]
 UniqueID=9432FE1C-4CFA-4FFC-A183-87197D2B2D90
 Description=default
@@ -356,26 +341,6 @@ Variation6=Designator=R25B|UniqueId=\BVIHQXPU\KWPVSIYG|Kind=1|AlternatePart=
 Variation7=Designator=IC19|UniqueId=\MPRBNUPJ\HHDMFYOW|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for SiLPA\Design Rule Check - SiLPA.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for SiLPA\Panel\Panel_SiLPA.brd
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for SiLPA\Panel\Panel_SiLPA.DXF
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for SiLPA\Panel\Panel_SiLPA.step
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=C:\Users\gkasp\AppData\Local\Temp\QjzEDCE.xls
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -387,7 +352,7 @@ ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
 [Generic_EDE]
-OutputDir=Project Outputs for SiLPA
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -498,7 +463,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -572,18 +537,6 @@ OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
 PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Harness Layout Drawing Print
-OutputName12=Harness Layout Drawing Prints
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Harness Wiring Diagram Print
-OutputName13=Harness Wiring Diagram Prints
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -610,7 +563,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Brother MFC-L2710DW series Printer
+TargetPrinter=HP LaserJet MFP M130fw (AFD45D)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -741,18 +694,6 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=BOM_ReportCompare
-OutputName7=BOM Compare
-OutputDocumentPath7=
-OutputVariantName7=[No Variations]
-OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=Export Comments
-OutputName8=Export Comments
-OutputDocumentPath8=
-OutputVariantName8=[No Variations]
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -966,11 +907,6 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Web ReviewOutputName
-OutputName12=Web Review Data
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1294,25 +1230,22 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
+MultiChannelAlternate=2
 AlternateItemFail=3
 Type122=2
 Type123=1
-Type124=1
-Type125=1
-Type126=1
-Type127=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
-L2=NNWNNNNWWWNWNWNWN
-L3=NWEENEEEENEWNEEWN
+L2=NNNNNNNWNNNWNWNWN
+L3=NNEENEEEENEWNEEWN
 L4=NNENNNWEENNWNENWN
 L5=NNNNNNNNNNNNNNNNN
 L6=NNENNNNEENNWNENWN
 L7=NNEWNNWEENNWNENWN
 L8=NWEENEENEEENNEENN
-L9=NWEENEEEENEWNEEWW
-L10=NWNNNNNENNEWNNEWN
+L9=NNEENEEEENEWNEEWW
+L10=NNNNNNNENNEWNNEWN
 L11=NNENNNNEEENWNENWN
 L12=WWWWNWWNWWWNWWWNN
 L13=NNNNNNNNNNNWNNNWW
@@ -2460,21 +2393,12 @@ Net23=NetName=P5V5|NetColor=$00FF6EFF
 Net24=NetName=P5V5A|NetColor=$00FF6EFF
 
 [Comparison Options]
-<<<<<<< Updated upstream
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-=======
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=0|UseName=-1|InclAllRules=0
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
 ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|Confirm=0|UseName=0|InclAllRules=0
 ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
->>>>>>> Stashed changes
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
