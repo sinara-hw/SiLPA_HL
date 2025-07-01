@@ -345,6 +345,10 @@ ParamVariationCount=0
 DocumentPath=Project Outputs for SiLPA\Design Rule Check - SiLPA.html
 DItemRevisionGUID=
 
+[GeneratedDocument2]
+DocumentPath=SiLPA.cmp
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1285,17 +1289,11 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=EEM_FMC_Carrier.IntLib
-ComponentDesignItemID0=74HC4066PW
-ComponentSymbolReference0=74HC4066PW
+ComponentLibraryIdentifier0=ICs And Semiconductors.DbLib/Regulators
+ComponentDesignItemID0=MAX6033AAUT25#TG16
+ComponentSymbolReference0=MAX6033
 ComponentUpdate0=0
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name Only
-ComponentLibraryIdentifier1=Altium Content Vault
-ComponentDesignItemID1=CMP-04767-000020-1
-ComponentSymbolReference1=0223f526f2db1734dda50670d79969c
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1353,20 +1351,17 @@ ParameterName20=Pin Count
 ParameterUpdate20=1
 ParameterName21=PressFit
 ParameterUpdate21=1
-ParameterName22=SMD
+ParameterName22=Sense
 ParameterUpdate22=1
-ParameterName23=Socket
+ParameterName23=SMD
 ParameterUpdate23=1
-ParameterName24=Table
+ParameterName24=Socket
 ParameterUpdate24=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=FP-216989-0001-MFG
+ModelName0=SOT95P280X145-6N
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=SOP65P640X110-14N
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
